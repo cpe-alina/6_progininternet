@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Всі Бренди</title>
+</head>
+
+<body>
+    <header>
+		<nav>
+			<div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="UA Brands">
+                </a>
+            </div>
+			<ul class="nav-links">
+				<li><a href="index.html">
+				Головна</a>
+				</li>
+				<li><a href="brands.html">
+                Всі Бренди</a>
+				</li>
+				<li><a href="suggest.html">
+				Запропонувати Бренд</a>
+				</li>
+				<li><a href="about.html">
+				Про нас</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+    <main>
+        <div class="container">
+            <div class="filter-section">
+                <h3>Фільтрувати по</h3>
+                <div>
+                    <h3>Категорії</h3>
+                    <ul>
+                        <li><label><input type="checkbox" name="category" value="одяг"> Одяг</label></li>
+                        <li><label><input type="checkbox" name="category" value="взуття"> Взуття</label></li>
+                        <li><label><input type="checkbox" name="category" value="аксесуари"> Аксесуари</label></li>
+                        <li><label><input type="checkbox" name="category" value="домашні улюбленці"> Домашні Улюбленці</label></li>
+                        <li><label><input type="checkbox" name="category" value="дім"> Дім</label></li>
+                        <li><label><input type="checkbox" name="category" value="прикраси"> Прикраси</label></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Ціні</h3>
+                    <ul>
+                        <li><label><input type="checkbox" name="price" value="$"> $</label></li>
+                        <li><label><input type="checkbox" name="price" value="$$"> $$</label></li>
+                        <li><label><input type="checkbox" name="price" value="$$$"> $$$</label></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="brand-section">
+                <div class="sort-section" style="text-align: right; padding-bottom: 10px;">
+                    <h3>Sort by</h3>
+                    <select>
+                        <option value="name-asc">Name A-Z</option>
+                        <option value="name-desc">Name Z-A</option>
+                        <option value="newest">Newest</option>
+                    </select>
+                </div>
+                <div class="brand-container">
+                    <div class="brand-card">
+                        <div class="brand-image">
+                            <img src="images/brands/shypelyk.png" class="brand-thumb" alt="">
+                        </div>
+                        <div class="brand-info">
+                            <h3 class="brand-brand">шипелик</h3>
+                            <p class="brand-short-des">Slow-fashion бренд одягу, що єднає зі стихією.</p>
+                            <span class="category">одяг</span>
+                        </div>
+                    </div>
+                    <div class="brand-card">
+                        <div class="brand-image">
+                            <img src="images/brands/marsego.png" class="brand-thumb" alt="">
+                        </div>
+                        <div class="brand-info">
+                            <h3 class="brand-brand">marsego</h3>
+                            <p class="brand-short-des">Бренд елегантного одягу, присвячений сучасній жіночності.</p>
+                            <span class="category">одяг</span>
+                        </div>
+                    </div>
+                    <div class="brand-card">
+                        <div class="brand-image">
+                            <img src="images/brands/keeppacks.png" class="brand-thumb" alt="">
+                        </div>
+                        <div class="brand-info">
+                            <h3 class="brand-brand">keeppacks</h3>
+                            <p class="brand-short-des">Бренд міських рюкзаків і сумок.</p>
+                            <span class="category">аксесуари</span>
+                        </div>
+                    </div>
+                    <div class="brand-card">
+                        <div class="brand-image">
+                            <img src="images/brands/harleyandcho.png" class="brand-thumb" alt="">
+                        </div>
+                        <div class="brand-info">
+                            <h3 class="brand-brand">harley&cho</h3>
+                            <p class="brand-short-des">Виробник товарів для домашніх улюбленців.</p>
+                            <span class="category">домашні улюбленці</span>
+                        </div>
+                    </div>
+                    <div class="brand-card">
+                        <div class="brand-image">
+                            <img src="images/brands/gushka.png" class="brand-thumb" alt="">
+                        </div>
+                        <div class="brand-info">
+                            <h3 class="brand-brand">Ґушка</h3>
+                            <p class="brand-short-des">Бренд вовняних виробів, що популяризує давнє ремесло.</p>
+                            <span class="category">дім</span>
+                        </div>
+                    </div>
+                    <div class="brand-card">
+                        <div class="brand-image">
+                            <img src="images/brands/hvoya.png" class="brand-thumb" alt="">
+                        </div>
+                        <div class="brand-info">
+                            <h3 class="brand-brand">hvoya</h3>
+                            <p class="brand-short-des">Бренд взуття в дусі 80-х і 90-х.</p>
+                            <span class="category">взуття</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 UA Brands.</p>
+    </footer>
+</body>
+
+</html>
